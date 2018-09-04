@@ -27,11 +27,15 @@ public class App {
 //        studentBLO.save(s3);
 //        studentBLO.save(s4);
 //        
+//        System.out.println(studentBLO.findAll().size());
 //        List<Student> studentList = studentBLO.findAll();
 //        for (Student student : studentList) {
 //            System.out.println(student);
 //            System.out.println("");
 //        }
+//        Student s = new Student("Alex", "Acosta");
+//        s.setId("1");
+        
         StudentWindow window = new StudentWindow();
         window.setVisible(true);
     }
